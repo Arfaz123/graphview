@@ -1,0 +1,56 @@
+.text-updater-node {
+    position: relative;
+    height: auto;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.text-updater-node:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.text-updater-node label {
+    display: block;
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.text-updater-node input {
+    width: calc(100% - 20px); /* Adjust the width to leave space for padding */
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:0px 0px 10px 10px;
+    font-size: 14px;
+}
+
+.text-updater-node button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 40%; /* Make the button fill the width of the container */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 4px 0; /* Adjust padding for better button appearance */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.text-updater-node button:hover {
+    background-color: #2186c4;
+}
+
+.text-updater-node-content {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
